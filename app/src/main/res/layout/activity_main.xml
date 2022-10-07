@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTituloEC01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/purple_700"
+            android:text="@string/titulo" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/etNumero1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/etNumero2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnComparar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_comparar" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvResultado"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/resultado" />
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:id="@+id/tvIntegrantes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/integrantes" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

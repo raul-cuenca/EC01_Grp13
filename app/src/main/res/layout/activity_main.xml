@@ -24,20 +24,22 @@
             android:text="@string/titulo" />
 
         <EditText
-            android:layout_marginTop="20dp"
             android:id="@+id/etNumero1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:ems="10"
-            android:inputType="number" />
+            android:inputType="number"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <EditText
-            android:layout_marginTop="10dp"
             android:id="@+id/etNumero2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:ems="10"
-            android:inputType="number" />
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         <Button
             android:layout_marginTop="20dp"
